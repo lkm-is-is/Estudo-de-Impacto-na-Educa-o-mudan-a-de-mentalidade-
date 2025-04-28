@@ -1,0 +1,61 @@
+Descrição
+Este dataset contém respostas de docentes/formadores antes e depois de uma intervenção de matemática. O projeto mensura se houve transformação no modo de entender e se relacionar com matemática.
+O método é uma adaptação à realidade educacional do MS desenvolvida por Jo Boaler em seus estudos sobre aprendizagem matemática em Stanford/US.
+Trazido pelo Instituto Sidarta e trabalhada pela frente de pesquisa Mentalidades Matemáticas, o questionário mensura a relação de professores com o universo da matemática. 
+Ele é um esforço das áreas de Dados, Psicometria e Pedagogia matemática do Instituto Sidarta. 
+Caracteriza-se por questões de frequência e concordância, alternando em escala. Frequência = Nunca, Raramente, Às vezes, Sempre; Concordância = Discordo totalmente, Discordo, Discordo em partes, Concordo em partes, Concordo, Concordo plenamente.
+As respostas foram convertidas para escala numérica. Frequência = 1 a 4; Concordância = 1 a 6.
+Embora compartilhem de mesma escala conforme suas duas tipologias, as questões possuem orientações desejadas diferentes. Isto é: enquanto algumas desejam a resposta 6, assim, concordando, outras desejam a resposta 1, assim, discordando. O mesmo ocorre com as questões de frequência.
+As perguntas fazem parte de um questionário de psicometria desenvolvido pelo Instituto Sidarta e parceiros. As questões são separadas por conjuntos temáticos. 
+
+
+Natureza da Intervenção
+Trata-se de uma intervenção de 4 dias realizada com professores e formadores no MS. O material didático envolve o uso da metodologia desenvolvida por Jo Boaler, Stanford, que procura democratizar o ensino e a aprendizagem de matemática com base em princípios novos.
+
+
+Metodologia
+1) Pareamento da amostra para Teste T de significância estatística;
+2) Cálculo de médias por questão, desvio-padrão por questão, diferenças de médias e desvio-padrão por questão, variância por questão e raiz quadrada de n (amostra);
+3) Teste T, bicaudal, 95% de confiança, com margem de p value até 0,10 como intervalo aceitável de significância marginal.
+
+
+Resultados preliminares
+1) 13 de 14 questões apresentaram mudança na direção desejada, adicionando ou subtraindo médias conforme direções desejadas por questão;
+2) 5 de 14 quuestões apresentaram mudança com significância estatística, elas (5 casas decimais): 
+{
+Q1, p = 0,00006, t = -4,61686, diferença bruta nas médias (PÓS-PRÉ) = -1,15;
+Q2, p = 0,00241, t = -3,30386, diferença bruta nas médias (PÓS-PRÉ) = -0,63;
+Q5, p = 0,03247, t = 2,23902, diferença bruta nas médias (PÓS-PRÉ) = 0,22;
+Q13, p = 0,00085, t = -3,69455, diferença bruta nas médias (PÓS-PRÉ) = -0,47;
+Q9, p = 0,00701, t = 2,88809, diferença bruta nas médias (PÓS-PRÉ) = 0,65.
+}
+3) 3 de 14 questões apresentaram mudança com significância marginal, (p>0,05 e p<0,10)
+{
+Q10, p = 0,09603, t = 1,71662, diferença bruta nas médias (PÓS-PRÉ) = 0,15;
+Q6, p = 0,06013, t = -1,95116, diferença bruta nas médias (PÓS-PRÉ) = -0,44;
+Q7, p = 0,08310, t = 1,79078, diferença bruta nas médias (PÓS-PRÉ) = 0,29.
+}
+4) a) O conjunto temático "A matemática é uma ciência aberta e criativa" obteve 2/4 questões com significância estatística;
+b) O conjunto temático "Matemática é uma ciência de colaborações e conexões" obteve 1/2 questão com significância estatística;
+c) O conjunto temático "Erros são valiosos" obteve 1/3 questão com significância estatística;
+d) O conjunto temático "Profundidade é mais importante que velocidade" obteve 1/2 questão com significância estatística.
+
+
+Ressalvas
+Apesar dos resultados promissores, esse estudo sofre da limitação intrínseca à área de ciências sociais. O método científico é de difícil aplicação na realidade do mundo, ainda mais em uma área de tamanha complexidade e variáveis ocultas como a educação.
+Mensurar impacto, nesse sentido, é sempre estar atento à problemática inerente do campo como causalidade e inferência. Os resultados estatísticos servem como índices preliminares que requerem análise mais profunda e contextual. 
+É importante, também, estar atento à limitação da ferramenta matemática. O teste t determina apenas se a diferença entre as médias de dois grupos ou amostras é estatisticamente significativa. Ele ajuda a decidir se a diferença observada é provável devido a um efeito real ou simplesmente ao acaso, mas não infere causalidade. Para descobrir as variáveis ocultas em jogo, mais robustez é necessária.
+Minha sugestão é que a amostragem possua maior rigor em seu processo de criação, como grupo de controle e ambiente, na medida do possível, isolado de variáveis ocultas. O tempo de acompanhamento dos indivíduos da amostra também é um fator de interesse. Evidentemente, isso é um esforço bastante complexo no contexto de mensuração de impacto na realidade de estudantes. 
+
+Sugestões de melhoria
+1) Uso de PCA para determinar se as mudanças nas respostas das questões compõem grupos coerentes à origem da divisão de temas do questionário;
+2) Grupo de controle;
+3) Maior amostragem;
+4) Maior tempo de acompanhamento;
+5) Isolamento de variáveis sociodemográficas, profissionais, etc;
+6) Uso de análise qualitativa para integrar respostas livres no contexto dos resultados.
+
+
+
+
+
